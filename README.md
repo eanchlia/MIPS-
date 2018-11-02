@@ -1,10 +1,10 @@
-# Design:
-# MIPS Proccessor with Hazard Control and Foward Chaining
+# MIPS
+#Design:
+#MIPS Proccessor with Hazard Control and Foward Chaining
 
 #To Simulate using IRUN:
-irun -sv csa_64bit.v test.sv -access +rw
+irun -sv *.v -access +rw
+
 #Result log: irun.log
 
-#To Synthesize: 
-source sss
-#Result file: synres.txt
+#Project report: MIPS Report.docx
